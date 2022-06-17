@@ -1,0 +1,27 @@
+.carousel{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+    min-height: 245px;
+}
+[data-controls = 'prev'], [data-controls ='next']{
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%);
+    left: -38px;
+    border: none;
+    img{
+        width: 12px;
+        height: 47px;
+    }
+}   
+
+[data-controls ='next']{
+    right: -38px;
+    left: auto;
+}
+
+.next, .prev{
+    background-color: #eedab2;
+}

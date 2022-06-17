@@ -15,7 +15,11 @@ p{
     max-width: 1140px;
     margin: 0 auto;
 }
-@import './slider.scss';
+
+@import 'blocks/footer';
+@import 'blocks/clients';
+@import 'blocks/video';
+@import 'blocks/carousel';
 @import 'blocks/up';
 @import 'blocks/reviews';
 @import 'blocks/content';
