@@ -1,0 +1,44 @@
+.reviews{
+    background-color: #e8d8b6;
+    padding: 54px 0 61px 0;
+    &__papper{
+        justify-content: center;
+        display: flex;
+        &-2{
+            margin-left: 11px;
+            padding: 26px 0 31px 0;
+            width: 411px;
+            height: 245px;
+            background: url('../../img/bg/carousel_bg.png') center (center/cover) no-repeat;
+        }
+    }
+    &__title{
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #323232;
+        margin-left: 50px;
+    }
+    &__date{
+        margin-top: 11px;
+        color: #ffffff;
+        width: 119px;
+        height: 29px;
+        margin-left: 50px;
+        span{
+            padding: 10px;
+            background-color: #bcbcbe;
+            font-size: 9px;
+            line-height: 24px;
+            font-weight: 300;
+        }
+    }
+    &__descr{
+        margin-top: 11px;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #323232;
+        margin-left: 50px;
+    }
+}

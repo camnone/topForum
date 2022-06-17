@@ -1,1 +1,0 @@
-{"version":3,"file":"bundle.js","mappings":"AAAAA,MAAM","sources":["webpack://scr/./src/js/script.js"],"sourcesContent":["alert('21312');"],"names":["alert"],"sourceRoot":""}

@@ -1,8 +1,13 @@
 .header {
-    width: 100%;
-    .nav {
+    &__1{
         background-color: #323232;
         padding: 10px 0;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+    }
+    .nav {
         &__flexbox{
             display: flex;
             justify-content: space-between;
@@ -28,4 +33,23 @@
             }
         }
     }
+    &__2{
+        margin-top: 60px;
+        background-color: #ffffff;
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+
+    &__img > img{
+        margin-right: 44px;
+        &:last-child{
+            margin: 0;
+        }
+    }
+}
+.carousel{
+    width: 600px;
+    height: 300px;
 }
